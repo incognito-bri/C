@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-void	ft_print_alphabet(void)
+void	ft_print_numbers(void)
 {
-	int	i;
+	int i;
 
-	i = 'a';
-	while (i <= 'z')
+	i = '0';
+	while (i <= '9')
 	{
 		putchar(i);
 		i++;
