@@ -1,7 +1,7 @@
-void	ft_print_reverse_alphabet(void);
+void	ft_print_numbers(void);
 
-int	main(void)
+int		main(void)
 {
-	ft_print_reverse_alphabet();
+	ft_print_numbers();
 	return(0);
 }

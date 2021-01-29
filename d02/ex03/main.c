@@ -1,7 +1,15 @@
-void	ft_print_numbers(void);
+#include <stdlib.h>
 
-int		main(void)
+void	ft_is_negative(int n);
+
+int		main(int argc, char	*argv[])
 {
-	ft_print_numbers();
+	int	i;
+
+	if (argc != 2)
+		return(1);
+	i = atoi(argv[1]);
+	ft_is_negative(i
+		);
 	return(0);
 }
