@@ -18,16 +18,24 @@ int	main(int argc, char	**argv)
 		i++;
 	}
 	i = 1;
+	printf("%s", "Original Set: ");
 	while(i < argc)
 	{
-		printf("%s%d%s%d\n", "table number", i, " : ", table[i]);
+		printf("%d", table[i]);
+		if (i < argc - 1)
+			printf("%s", ", ");
 		i++;
 	}
+	printf("%s",".\n");
 	ft_sort_integer_table(table, argc);
 	i = 1;
+	printf("%s", "Ordered Set: ");
 	while(i < argc)
 	{
-		printf("%s%d%s%d\n", "table number", i, " : ", table[i]);
+		printf("%d", table[i]);
+		if (i < argc - 1)
+			printf("%s", ", ");
 		i++;
 	}
+	printf("%s",".\n");
 }

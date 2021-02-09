@@ -12,7 +12,7 @@ void	ft_sort_integer_table(int *tab, int	size)
 		compare = count + 1;
 		while(compare < size)
 		{
-			if (count > compare)
+			if (tab[count] > tab[compare])
 			{
 				temp = tab[count];
 				tab[count] = tab[compare];
@@ -22,5 +22,4 @@ void	ft_sort_integer_table(int *tab, int	size)
 		}
 		count++;
 	}
-	printf("\n%d", tab[1]);
 }
