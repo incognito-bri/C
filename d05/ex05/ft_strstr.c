@@ -3,10 +3,9 @@ char	*ft_strstr(char	*str, char	*to_find)
 	int i;
 	int n;
 
-	i = 0;
-
 	if (!*to_find)
 		return(str);
+	i = 0;
 	while (str[i])
 	{
 		n = 0;
