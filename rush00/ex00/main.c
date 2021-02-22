@@ -1,18 +1,19 @@
 #include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 void	ft_putchar(char	c);
 
-void	rush03(int	x,int	y);
+void	rush00(int	x, int	y);
 
-int		main(int	argc, char	**argv)
+void	rush01(int	x, int	y);
+
+void	rush02(int	x, int	y);
+
+void	rush03(int	x, int	y);
+
+void	rush04(int	x, int	y);
+
+int		main(void)
 {
-	if (argc != 3)
-	{
-		printf("%s\n", "Enter an X and a Y value.");
-		return(1);
-	}
-	rush03(atoi(argv[1]), atoi(argv[2]));
-	return (0);
-}
+	rush04(5, 5);
+	return (0)
+;}
