@@ -37,7 +37,6 @@ int		main(int	argc, char	**argv)
 	char	*tmp;
 
 	count = 1;
-
 	while (count < argc)
 	{
 		compare = count + 1;
@@ -55,9 +54,6 @@ int		main(int	argc, char	**argv)
 	}
 	count = 1;
 	while (count < argc)
-	{
-		print_params(argv[count]);
-		count++;
-	}
-	return (0);
+			print_params(argv[count++]);
+		return (0);
 }
